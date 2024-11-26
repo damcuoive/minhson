@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lời Mời Đám Cưới</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf6e4;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #f8b400;
+            color: white;
+            padding: 10px 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .map iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        .qr-code img {
+            width: 200px;
+            height: 200px;
+        }
+        footer {
+            background-color: #f8b400;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        a {
+            color: #f8b400;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lời Mời Đám Cưới</h1>
+        <p>Hân hạnh mời bạn cùng người thương tham dự hôn lễ của chúng tôi!</p>
+    </header>
+
+    <section>
+        <h2>Thông Tin Đám Cưới</h2>
+        <p><strong>Thời gian:</strong> 10:00 sáng, Chủ Nhật, ngày 22/12/2024</p>
+        <p><strong>Địa điểm:</strong> Tư gia nhà trai, Ngõ 8, Thôn Viên Đình, Xã Đông Lỗ, Huyện Ứng Hòa, TP Hà Nội.</p>
+    </section>
+
+    <section class="map">
+        <h2>Bản Đồ</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.8568575810484!2d105.81511191548647!3d21.03623659288374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab730f48b1f9%3A0xc57600d5cc98e5c6!2sHanoi!5e0!3m2!1sen!2s!4v1633646375033!5m2!1sen!2s"></iframe>
+    </section>
+
+    <section class="qr-code">
+        <h2>Quà Mừng</h2>
+        <p>Nếu bạn muốn gửi quà mừng từ xa, xin vui lòng quét mã QR dưới đây:</p>
+        <img src="qr_code_link_here.png" alt="QR Code chuyển khoản">
+        <p><strong>STK:</strong> 123456789 (Ngân hàng ACB) - Tên tài khoản: Nguyễn Văn A</p>
+    </section>
+
+    <footer>
+        <p>Chân thành cảm ơn và mong được đón tiếp!</p>
+        <p>Liên hệ: <a href="tel:0914561235">0914.561.235</a></p>
+    </footer>
+</body>
+</html>
